@@ -7,7 +7,7 @@ K-means clustering is a unsupervised machine learning algorithm used to classify
 # Code Implementation
 The code starts by generating a test dataset consisting of 40,000 data points with four features each. The first 10,000 data points have a value of 30 in all four features, the second 10,000 have a value of 60, the third 10,000 have a value of 90, and the last 10,000 have a value of 120. The dataset is then shuffled to ensure that the data points are distributed randomly.
 
-Next, the number of clusters is set to four, and the algorithm is run for ten different variations. For each variation, the algorithm randomly selects four data points from the dataset to use as the initial cluster values. The algorithm then iteratively assigns each data point to the nearest cluster and recalculates the center of each cluster. This process continues until the clusters no longer change. (I did not set a maximum number of iterations as I knew with this simple dataset that we would converge to a non increasing mean cluster value).
+Next, the number of clusters is set to four, and the algorithm is run for ten different variations. For each variation, the algorithm randomly selects four data points from the dataset to use as the initial cluster values. The algorithm then iteratively assigns each data point to the nearest cluster and recalculates the center of each cluster. This process continues until the clusters no longer change. (I did not set a maximum number of iterations as I knew with this simple dataset that it would converge to a non increasing mean cluster value).
 
 After each variation, the sum of the variances of each cluster is calculated and stored. Finally, the variation with the minimum sum of variances is selected as the optimal set of clusters.
 
