@@ -2,7 +2,7 @@
 In this project, I have implemented the K-means clustering algorithm from scratch using only the numpy library in Python. The purpose of this project was to deepen my understanding of how the K-means algorithm works and to gain practical experience in implementing it.
 
 # How K-means Clustering works
-K-means clustering is a unsupervised machine learning algorithm used to classify data points into clusters based on their similarities. The algorithm starts by iteratively assigning each data point to the closest cluster and then reassigning each cluster value to the mean of all of its assignned points. This process is repeated until the clusters no longer update in value or a number of iterations is reached equal to a preset maximum iterations value.
+K-means clustering is a unsupervised machine learning algorithm used to classify data points into clusters based on their similarities. The algorithm starts by iteratively assigning each data point to the closest cluster and then reassigning each cluster value to the mean of all of its assigned points. This process is repeated until the clusters no longer update in value or a number of iterations is reached equal to a preset maximum iterations value.
 
 # Code Implementation
 The code starts by generating a test dataset consisting of 40,000 data points with four features each. The first 10,000 data points have a value of 30 in all four features, the second 10,000 have a value of 60, the third 10,000 have a value of 90, and the last 10,000 have a value of 120. The dataset is then shuffled to ensure that the data points are distributed randomly.
